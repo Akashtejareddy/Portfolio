@@ -1,0 +1,12 @@
+Create a folder structure like this:
+
+assets/
+├── css/
+│   └── main.css
+├── images/
+│   ├── placeholder.jpg (your profile photo)
+│   └── placeholder-project.jpg (project screenshots)
+└── pdf/
+    └── AkashTejaResume.pdf (your resume)
+
+Replace the placeholder images with your actual photos and add your resume PDF.

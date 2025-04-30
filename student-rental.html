@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Student Rental Hub - Akash Teja Reddy</title>
+  <link rel="stylesheet" href="assets/css/main.css">
+</head>
+<body>
+  <div class="wrapper">
+    <div class="container">
+      <a href="index.html" class="button outline back-button">
+        <span class="icon-arrow-left"></span> Back to Home
+      </a>
+
+      <div class="project-container">
+        <h1 class="project-header">Student Rental Hub</h1>
+        <p class="project-github">
+          Show the project in GitHub 
+          <a href="https://github.com/Akashtejareddy/student-rent-hub" class="github-link">@GitHublink</a>
+        </p>
+
+        <div class="project-intro">
+          <p>A Student Accommodation Platform developed to help international student to find accommodations.</p>
+        </div>
+
+        <section class="project-section">
+          <h2 class="section-title">Introduction</h2>
+          <p>
+            The Student Rental Hub is a web-based platform designed to simplify the process of finding rental
+            accommodations for students. Built with a user-friendly interface, it allows users to register, log in,
+            and explore housing options based on their preferred location and lease duration. The project integrates
+            front-end technologies like HTML, CSS, and Bootstrap with back-end functionality using PHP and MySQL,
+            ensuring a seamless experience for students seeking housing.
+          </p>
+        </section>
+
+        <section class="project-section">
+          <h2 class="section-title">Key Features</h2>
+          <div class="feature-grid">
+            <div class="feature-image">
+              <img src="assets/images/placeholder-project.jpg" alt="Register Page">
+            </div>
+            <div class="feature-content">
+              <h3 class="feature-title">Registration Page</h3>
+              <p>
+                The registration page (register.php and register.html) enables students to create accounts by
+                providing essential details such as name, email, password, phone number, location, and preferred lease
+                duration (3 months to 2 years). The form is styled with Bootstrap for responsiveness and uses PHP to
+                securely store user data in a MySQL database (users table). Client-side validation ensures all fields
+                are filled, while server-side processing handles data insertion, redirecting authenticated users to
+                the main hub (invitation.php).
+              </p>
+            </div>
+          </div>
+        </section>
+
+        <section class="project-section">
+          <div class="feature-grid reverse">
+            <div class="feature-content">
+              <h3 class="feature-title">Login Page</h3>
+              <p>
+                The login page (login.php) provides secure access to the platform, requiring users to enter their
+                email and password. Built with PHP for session management, it checks credentials against the MySQL
+                database and redirects authenticated users to the dashboard (invitation.php). The interface is styled
+                with Bootstrap and custom CSS, featuring a clean, responsive design with a blurred background image
+                for aesthetic appeal. A link to the registration page is included for new users.
+              </p>
+            </div>
+            <div class="feature-image">
+              <img src="assets/images/placeholder-project.jpg" alt="Login Page">
+            </div>
+          </div>
+        </section>
+
+        <section class="project-section">
+          <div class="feature-grid">
+            <div class="feature-image">
+              <img src="assets/images/placeholder-project.jpg" alt="Home Page">
+            </div>
+            <div class="feature-content">
+              <h3 class="feature-title">Database Design</h3>
+              <p>
+                The project leverages a MySQL database (student.sql) to store user information, with a users table
+                that includes fields for ID, name, email, password, phone, location, and lease duration. PHP scripts
+                handle database interactions, ensuring secure data management. The navigation bar, present across
+                pages like aboutus.html, contactus.html, and invitation.php, allows users to access key sections
+                (Home, About Us, Contact Us, Login), enhancing usability and site coherence.
+              </p>
+            </div>
+          </div>
+        </section>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
